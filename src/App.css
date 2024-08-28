@@ -1,0 +1,83 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  height: 100vh;
+}
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+ /* overflow: hidden; */
+
+}
+img{
+  height:630px;
+  width: 360px;
+}
+.fonts{
+  position: absolute;
+  margin-left: -200px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white ;
+  font-size: 25px;
+}
+.img2{
+  position: absolute;
+  /* margin-left: ; */
+  z-index: 999;
+  /* opacity: 0; */
+}
+.haldi_rsvp, .haldi_back{
+padding: 8px 10px;
+background-color: black;
+color: white;
+border-radius: 3px;
+border: 1px solid white;
+}
+.haldibtns{
+  position: absolute;
+  /* left: 0; */
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px
+}
+.m_btn{
+  background-color: transparent;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #FED861;
+  }
+
+
+
+  /* animation  */
+.diary-page-enter {
+  transform: rotateX(90deg);
+  transform-origin: top;
+  opacity: 0;
+}
+.diary-page-enter-active {
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition: transform 1000ms ease, opacity 1000ms ease;
+}
+.diary-page-exit {
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+.diary-page-exit-active {
+  transform: rotateX(90deg);
+  opacity: 0;
+  transition: transform 1000ms ease, opacity 1000ms ease;
+}
