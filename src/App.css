@@ -62,22 +62,20 @@ border: 1px solid white;
 
 
   /* animation  */
+/* App.css */
 .diary-page-enter {
-  transform: rotateX(90deg);
-  transform-origin: top;
   opacity: 0;
 }
 .diary-page-enter-active {
-  transform: rotateX(0deg);
   opacity: 1;
-  transition: transform 1000ms ease, opacity 1000ms ease;
+  transition: opacity 2000ms ease-in-out;
 }
 .diary-page-exit {
-  transform: rotateX(0deg);
   opacity: 1;
 }
 .diary-page-exit-active {
-  transform: rotateX(90deg);
   opacity: 0;
-  transition: transform 1000ms ease, opacity 1000ms ease;
+  transition: opacity 2000ms ease-in-out;
 }
+
+  

@@ -16,7 +16,7 @@ function App() {
       <CSSTransition
         key={location.key}
         classNames="diary-page"
-        timeout={800} // Duration of the animation
+        timeout={2000} // Duration of the animation
       >
         <Routes location={location}>
           <Route path="/" element={<Front />} />
