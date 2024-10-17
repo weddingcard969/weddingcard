@@ -19,7 +19,7 @@ function Walima() {
             {/* <button className='haldi_rsvp' onClick={() => navigate('/rsvp')}>RSVP</button> */}
             {/* <button className='haldi_back' onClick={handleMapClick}>Location</button>           */}
 
-            <button className='walima_back' onClick={() => navigate(-1)}>Back</button>
+            <button className='walima_back' onClick={() => navigate(-1)}></button>
           </div>
         </div>
       </div>

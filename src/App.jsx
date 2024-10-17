@@ -7,7 +7,7 @@ import Mehndi from './mehndi';
 import Walima from './walima';
 // import Rsvp from './rsvp';
 import './App.css'; // Import your CSS file for animations
-
+import './btns.css';
 function App() {
   const location = useLocation();
 

@@ -1,0 +1,64 @@
+.haldi_rsvp, .haldi_back{
+    /* padding: 2px 10px; */
+    background-color:transparent;
+    color: rgb(99, 31, 5);
+    border-radius: 1px;
+    /* border: 1px solid white; */
+    font-family: cursive;
+    font-size: 12px;
+    border: none;
+    margin-left: 5px;
+    margin-bottom:70px;
+    /* opacity: 0; */
+    border-radius: 50px;
+    padding: 60px;
+    
+    
+    
+    }
+    .mehndi_back{
+    /* background-color:#218580; */
+    background-color: transparent;
+    color:#336750;
+    border-radius: 1px;
+    /* border: 1px solid white; */
+    font-family: cursive;
+    /* opacity: 0; */
+    font-size: 10px;
+    border: none;
+    margin-left: 130px;
+    border-radius: 50px;
+    /* margin-top: -200px; */
+    margin-bottom: 115px;
+    padding: 60px;
+    
+    
+    }
+    
+    .walima_back{
+      background-color:transparent;
+      color: hsl(0, 0%, 0%);
+      border-radius: 1px;
+      /* border: 1px solid white; */
+      font-family: cursive;
+      font-size: 12px;
+      border: none;
+      margin-left: 5px;
+      border-radius: 50px;
+    margin-bottom:60px;
+    padding: 60px;
+    /* opacity: 0; */
+    
+      
+      }
+    .haldibtns{
+      position: absolute;
+      /* left: 0; */
+      bottom: 50px;
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+      /* margin-left: 290px; */
+    
+    
+    }
