@@ -43,7 +43,7 @@ img{
 }
 .haldi_rsvp, .haldi_back{
 /* padding: 2px 10px; */
-background-color: rgb(240, 240, 240);
+background-color:transparent;
 color: rgb(99, 31, 5);
 border-radius: 1px;
 /* border: 1px solid white; */
@@ -51,20 +51,28 @@ font-family: cursive;
 font-size: 12px;
 border: none;
 margin-left: 5px;
+margin-bottom:70px;
+opacity: 0;
 border-radius: 50px;
 
 
 }
 .mehndi_back{
-background-color:#218580;
-color: #f8cb38;
+/* background-color:#218580; */
+background-color: transparent;
+color:#336750;
 border-radius: 1px;
 /* border: 1px solid white; */
 font-family: cursive;
-font-size: 12px;
+opacity: 0;
+font-size: 10px;
 border: none;
-margin-left: 5px;
+margin-left: 130px;
 border-radius: 50px;
+/* margin-top: -200px; */
+margin-bottom: 115px;
+
+
 }
 
 .walima_back{
@@ -77,6 +85,10 @@ border-radius: 50px;
   border: none;
   margin-left: 5px;
   border-radius: 50px;
+margin-bottom:60px;
+opacity: 0;
+
+  
   }
 .haldibtns{
   position: absolute;
