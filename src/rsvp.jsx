@@ -26,6 +26,7 @@ function Contact() {
     data.append("attendance", formData.attendance); // Corrected key
     data.append("members", formData.members); // Corrected key
     data.append("message", formData.message);
+    window.alert("RSVP Submitted")
 
     const Sheet_Url =
       "https://script.google.com/macros/s/AKfycbyTn2Nnr-apV5AbX-PKXXM_rhT8S15l1fSUUhvdcsq_9zb6pfFcWDynjdQ2HwLq8fQ/exec";
@@ -82,7 +83,7 @@ function Contact() {
               name="event"
               value={formData.event}
               onChange={handleChange}
-              required
+              
             >
               <option value="" disabled>
                 Event
@@ -116,7 +117,7 @@ function Contact() {
               name="members"
               value={formData.members}
               onChange={handleChange}
-              required
+              
             >
               <option value="" disabled>
                 How many of you are coming?

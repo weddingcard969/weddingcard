@@ -5,7 +5,7 @@ import Front from './front';
 import Haldi from './Haldi';
 import Mehndi from './mehndi';
 import Walima from './walima';
-import Rsvp from './rsvp';
+// import Rsvp from './rsvp';
 import './App.css'; // Import your CSS file for animations
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/haldi" element={<Haldi />} />
           <Route path="/mehndi" element={<Mehndi />} />
           <Route path="/walima" element={<Walima />} />
-          <Route path="/rsvp" element={<Rsvp />} />
+          {/* <Route path="/rsvp" element={<Rsvp />} /> */}
         </Routes>
       </CSSTransition>
     </TransitionGroup>

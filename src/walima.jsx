@@ -16,10 +16,10 @@ function Walima() {
           <img src={img4} alt="" />
           <div className="haldibtns">
             {/* <button className='haldi_rsvp'>RSVP</button> */}
-            <button className='haldi_rsvp' onClick={() => navigate('/rsvp')}>RSVP</button>
-            <button className='haldi_back' onClick={handleMapClick}>Location</button>          
+            {/* <button className='haldi_rsvp' onClick={() => navigate('/rsvp')}>RSVP</button> */}
+            {/* <button className='haldi_back' onClick={handleMapClick}>Location</button>           */}
 
-            <button className='haldi_back' onClick={() => navigate(-1)}>Back</button>
+            <button className='walima_back' onClick={() => navigate(-1)}>Back</button>
           </div>
         </div>
       </div>

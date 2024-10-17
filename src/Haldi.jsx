@@ -18,8 +18,8 @@ function Haldi() {
           <img src={img2} alt="" />
 
           <div className="haldibtns">
-            <button className='haldi_rsvp' onClick={() => navigate('/rsvp')}>RSVP</button>
-            <button className='haldi_back' onClick={handleMapClick}>Location</button>
+            {/* <button className='haldi_rsvp' onClick={() => navigate('/rsvp')}>RSVP</button> */}
+            {/* <button className='haldi_back' onClick={handleMapClick}>Location</button> */}
             <button className='haldi_back' onClick={() => navigate(-1)}>Back</button>
           </div>
         </div>
